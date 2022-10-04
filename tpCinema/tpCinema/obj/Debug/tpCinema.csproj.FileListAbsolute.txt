@@ -1,0 +1,9 @@
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\bin\Debug\tpCinema.exe.config
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\bin\Debug\tpCinema.exe
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\bin\Debug\tpCinema.pdb
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\bin\Debug\ApiCinema.dll
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\obj\Debug\tpCinema.csprojAssemblyReference.cache
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\obj\Debug\tpCinema.csproj.CopyComplete
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\obj\Debug\tpCinema.exe
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\obj\Debug\tpCinema.pdb
+C:\Users\Philippe\source\repos\tpCinema\tpCinema\bin\Debug\ApiPersistance.dll

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54B40732-90C1-4563-9665-92920714E45F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>tpCinema</RootNamespace>
+    <AssemblyName>tpCinema</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ApiCinema, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>api\ApiCinema.dll</HintPath>
+    </Reference>
+    <Reference Include="ApiPersistance">
+      <HintPath>api\ApiPersistance.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="documentationApiPersistance\annotated.html" />
+    <Content Include="documentationApiPersistance\bc_s.png" />
+    <Content Include="documentationApiPersistance\bdwn.png" />
+    <Content Include="documentationApiPersistance\classes.html" />
+    <Content Include="documentationApiPersistance\class_api_persistance_1_1_persistance-members.html" />
+    <Content Include="documentationApiPersistance\class_api_persistance_1_1_persistance.html" />
+    <Content Include="documentationApiPersistance\closed.png" />
+    <Content Include="documentationApiPersistance\doc.png" />
+    <Content Include="documentationApiPersistance\doxygen.css" />
+    <Content Include="documentationApiPersistance\doxygen.svg" />
+    <Content Include="documentationApiPersistance\dynsections.js" />
+    <Content Include="documentationApiPersistance\folderclosed.png" />
+    <Content Include="documentationApiPersistance\folderopen.png" />
+    <Content Include="documentationApiPersistance\functions.html" />
+    <Content Include="documentationApiPersistance\functions_func.html" />
+    <Content Include="documentationApiPersistance\index.html" />
+    <Content Include="documentationApiPersistance\jquery.js" />
+    <Content Include="documentationApiPersistance\menu.js" />
+    <Content Include="documentationApiPersistance\menudata.js" />
+    <Content Include="documentationApiPersistance\namespaces.html" />
+    <Content Include="documentationApiPersistance\namespace_api_persistance.html" />
+    <Content Include="documentationApiPersistance\nav_f.png" />
+    <Content Include="documentationApiPersistance\nav_g.png" />
+    <Content Include="documentationApiPersistance\nav_h.png" />
+    <Content Include="documentationApiPersistance\open.png" />
+    <Content Include="documentationApiPersistance\search\all_0.html" />
+    <Content Include="documentationApiPersistance\search\all_0.js" />
+    <Content Include="documentationApiPersistance\search\all_1.html" />
+    <Content Include="documentationApiPersistance\search\all_1.js" />
+    <Content Include="documentationApiPersistance\search\all_2.html" />
+    <Content Include="documentationApiPersistance\search\all_2.js" />
+    <Content Include="documentationApiPersistance\search\all_3.html" />
+    <Content Include="documentationApiPersistance\search\all_3.js" />
+    <Content Include="documentationApiPersistance\search\classes_0.html" />
+    <Content Include="documentationApiPersistance\search\classes_0.js" />
+    <Content Include="documentationApiPersistance\search\close.svg" />
+    <Content Include="documentationApiPersistance\search\functions_0.html" />
+    <Content Include="documentationApiPersistance\search\functions_0.js" />
+    <Content Include="documentationApiPersistance\search\functions_1.html" />
+    <Content Include="documentationApiPersistance\search\functions_1.js" />
+    <Content Include="documentationApiPersistance\search\mag_sel.svg" />
+    <Content Include="documentationApiPersistance\search\namespaces_0.html" />
+    <Content Include="documentationApiPersistance\search\namespaces_0.js" />
+    <Content Include="documentationApiPersistance\search\nomatches.html" />
+    <Content Include="documentationApiPersistance\search\search.css" />
+    <Content Include="documentationApiPersistance\search\search.js" />
+    <Content Include="documentationApiPersistance\search\searchdata.js" />
+    <Content Include="documentationApiPersistance\search\search_l.png" />
+    <Content Include="documentationApiPersistance\search\search_m.png" />
+    <Content Include="documentationApiPersistance\search\search_r.png" />
+    <Content Include="documentationApiPersistance\splitbar.png" />
+    <Content Include="documentationApiPersistance\sync_off.png" />
+    <Content Include="documentationApiPersistance\sync_on.png" />
+    <Content Include="documentationApiPersistance\tabs.css" />
+    <Content Include="documentationApiPersistance\tab_a.png" />
+    <Content Include="documentationApiPersistance\tab_b.png" />
+    <Content Include="documentationApiPersistance\tab_h.png" />
+    <Content Include="documentationApiPersistance\tab_s.png" />
+    <Content Include="documentationApiCinema\annotated.html" />
+    <Content Include="documentationApiCinema\bc_s.png" />
+    <Content Include="documentationApiCinema\bdwn.png" />
+    <Content Include="documentationApiCinema\classes.html" />
+    <Content Include="documentationApiCinema\class_api_cinema_1_1_cinema-members.html" />
+    <Content Include="documentationApiCinema\class_api_cinema_1_1_cinema.html" />
+    <Content Include="documentationApiCinema\class_api_cinema_1_1_salle-members.html" />
+    <Content Include="documentationApiCinema\class_api_cinema_1_1_salle.html" />
+    <Content Include="documentationApiCinema\closed.png" />
+    <Content Include="documentationApiCinema\doc.png" />
+    <Content Include="documentationApiCinema\doxygen.css" />
+    <Content Include="documentationApiCinema\doxygen.svg" />
+    <Content Include="documentationApiCinema\dynsections.js" />
+    <Content Include="documentationApiCinema\folderclosed.png" />
+    <Content Include="documentationApiCinema\folderopen.png" />
+    <Content Include="documentationApiCinema\functions.html" />
+    <Content Include="documentationApiCinema\functions_func.html" />
+    <Content Include="documentationApiCinema\functions_prop.html" />
+    <Content Include="documentationApiCinema\index.html" />
+    <Content Include="documentationApiCinema\jquery.js" />
+    <Content Include="documentationApiCinema\menu.js" />
+    <Content Include="documentationApiCinema\menudata.js" />
+    <Content Include="documentationApiCinema\namespaces.html" />
+    <Content Include="documentationApiCinema\namespace_api_cinema.html" />
+    <Content Include="documentationApiCinema\nav_f.png" />
+    <Content Include="documentationApiCinema\nav_g.png" />
+    <Content Include="documentationApiCinema\nav_h.png" />
+    <Content Include="documentationApiCinema\open.png" />
+    <Content Include="documentationApiCinema\search\all_0.html" />
+    <Content Include="documentationApiCinema\search\all_0.js" />
+    <Content Include="documentationApiCinema\search\all_1.html" />
+    <Content Include="documentationApiCinema\search\all_1.js" />
+    <Content Include="documentationApiCinema\search\all_2.html" />
+    <Content Include="documentationApiCinema\search\all_2.js" />
+    <Content Include="documentationApiCinema\search\all_3.html" />
+    <Content Include="documentationApiCinema\search\all_3.js" />
+    <Content Include="documentationApiCinema\search\all_4.html" />
+    <Content Include="documentationApiCinema\search\all_4.js" />
+    <Content Include="documentationApiCinema\search\all_5.html" />
+    <Content Include="documentationApiCinema\search\all_5.js" />
+    <Content Include="documentationApiCinema\search\all_6.html" />
+    <Content Include="documentationApiCinema\search\all_6.js" />
+    <Content Include="documentationApiCinema\search\classes_0.html" />
+    <Content Include="documentationApiCinema\search\classes_0.js" />
+    <Content Include="documentationApiCinema\search\classes_1.html" />
+    <Content Include="documentationApiCinema\search\classes_1.js" />
+    <Content Include="documentationApiCinema\search\close.svg" />
+    <Content Include="documentationApiCinema\search\functions_0.html" />
+    <Content Include="documentationApiCinema\search\functions_0.js" />
+    <Content Include="documentationApiCinema\search\functions_1.html" />
+    <Content Include="documentationApiCinema\search\functions_1.js" />
+    <Content Include="documentationApiCinema\search\functions_2.html" />
+    <Content Include="documentationApiCinema\search\functions_2.js" />
+    <Content Include="documentationApiCinema\search\functions_3.html" />
+    <Content Include="documentationApiCinema\search\functions_3.js" />
+    <Content Include="documentationApiCinema\search\functions_4.html" />
+    <Content Include="documentationApiCinema\search\functions_4.js" />
+    <Content Include="documentationApiCinema\search\mag_sel.svg" />
+    <Content Include="documentationApiCinema\search\namespaces_0.html" />
+    <Content Include="documentationApiCinema\search\namespaces_0.js" />
+    <Content Include="documentationApiCinema\search\nomatches.html" />
+    <Content Include="documentationApiCinema\search\properties_0.html" />
+    <Content Include="documentationApiCinema\search\properties_0.js" />
+    <Content Include="documentationApiCinema\search\properties_1.html" />
+    <Content Include="documentationApiCinema\search\properties_1.js" />
+    <Content Include="documentationApiCinema\search\properties_2.html" />
+    <Content Include="documentationApiCinema\search\properties_2.js" />
+    <Content Include="documentationApiCinema\search\search.css" />
+    <Content Include="documentationApiCinema\search\search.js" />
+    <Content Include="documentationApiCinema\search\searchdata.js" />
+    <Content Include="documentationApiCinema\search\search_l.png" />
+    <Content Include="documentationApiCinema\search\search_m.png" />
+    <Content Include="documentationApiCinema\search\search_r.png" />
+    <Content Include="documentationApiCinema\splitbar.png" />
+    <Content Include="documentationApiCinema\sync_off.png" />
+    <Content Include="documentationApiCinema\sync_on.png" />
+    <Content Include="documentationApiCinema\tabs.css" />
+    <Content Include="documentationApiCinema\tab_a.png" />
+    <Content Include="documentationApiCinema\tab_b.png" />
+    <Content Include="documentationApiCinema\tab_h.png" />
+    <Content Include="documentationApiCinema\tab_s.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
